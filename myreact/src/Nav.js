@@ -7,9 +7,9 @@ export default class Nav extends React.Component {
             <nav>
                 <ul>
                     <li><img src={logo} className="App-logo" alt="logo" /></li>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>About</li>
+                    <li className='active'><a href='#'>Home</a></li>
+                    <li><a href='#'>Products</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </nav>
         )

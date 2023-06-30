@@ -1,6 +1,6 @@
 import './App.css';
 import Navigation from './Nav'
-import LoginForm from './LogForm'
+import LogForm from './LogForm'
 
 function App() {
   return (
@@ -9,9 +9,10 @@ function App() {
         <Navigation></Navigation>
       </header>
       <br></br>
-      <div className="App-header">
-        <LoginForm></LoginForm>
-      </div>
+      <div className='main'>
+        <LogForm />
+        <br />
+        </div>
       
     </div>
   );
