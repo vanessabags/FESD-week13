@@ -117,3 +117,20 @@ button:active{
   width: 15px;
   border-radius: 50%;
 }
+.footer {
+  background-color: rgb(176, 126, 176);
+  width: 100vw;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+.body {
+  min-height: 100%;
+  margin-bottom: -40px;
+}
+.body::after {
+  content: "";
+  display: block;
+  height: 40px;
+}

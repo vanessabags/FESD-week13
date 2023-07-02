@@ -12,7 +12,7 @@ export default class Content extends React.Component {
                         alt="avatar"
                         className="avatar"
                     />
-                    username
+                    Username
                 </div>
                 <div className="card-body">
                     Content, Tweet, Send

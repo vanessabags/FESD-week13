@@ -28,7 +28,7 @@ export default function Form() {
                     <NewPost />
                     <br />
                     <br />
-                    <Content />
+                    <Content /> 
                     <Content />
                     <Content />
                     <Content />
